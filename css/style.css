@@ -1,0 +1,134 @@
+body {
+  background-color: #010101;
+}
+/* ____________Навигиция___________________________ */
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+header {
+  background-image: url(/image/MAIN\ FONE2.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  padding-top: 60px;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+}
+.menu_item {
+  padding-left: 23px;
+}
+.menu_item_a {
+  font-family: "Maison Neue", sans-serif;
+  font-size: 16px;
+  color: white;
+  transition: 0.5s;
+}
+.menu_item_a:hover {
+  text-shadow: 0px 0px 7px white;
+}
+.menu_item_b {
+  font-family: "Maison Neue", sans-serif;
+  letter-spacing: 0.065em;
+  font-size: 16px;
+  color: #00a3ff;
+  padding: 11px 26px;
+  border-radius: 21px;
+  border: 1px solid #00a3ff;
+  background: transparent;
+  transition: 0.5s;
+}
+.menu_item_b:hover {
+  box-shadow: 0px 0px 7px white;
+}
+/* _____________________________________________________ */
+.text_info {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.postal {
+  max-width: 90%;
+}
+.text_info h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 26px;
+  font-size: calc(var(--index) * 2);
+}
+.text_info p {
+  font-family: "Maison Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 35px;
+  font-size: calc(var(--index) * 0.8);
+}
+
+.buttons {
+  position: relative;
+  max-width: 350px;
+  margin: 50px auto 0;
+}
+.element {
+  position: absolute;
+}
+.element1 {
+  left: 9%;
+  transition: 0.5s;
+}
+.element1:hover {
+  padding: 3px;
+}
+.element2 {
+  right: 11%;
+  top: -9px;
+  transition: 0.5s;
+}
+.element2:hover {
+  padding: 3px;
+}
+.container_2 {
+  display: flex;
+  max-width: 1200px;
+  margin: 30px 0 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cat img {
+  max-width: 80%;
+  margin-left: 70px;
+}
+.dog img {
+  max-width: 80%;
+}
+.dog {
+  margin-top: -30px;
+}
+.symbols {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* _________block_2_______________________ */
+.info {
+  height: 1000px;
+}
