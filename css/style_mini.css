@@ -58,7 +58,7 @@
     max-height: 100vh;
   }
   .nav_logo {
-    order: 1;
+    order: -1;
     margin-right: 10px;
   }
   .text_info h1 {
