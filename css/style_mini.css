@@ -40,11 +40,11 @@
 }
 @media (max-width: 500px) {
   .cat {
-    min-width: 60%;
+    min-width: 50%;
     padding-right: 50px;
   }
   .dog {
-    min-width: 60%;
+    min-width: 50%;
     padding-left: 5px;
   }
   .container {
